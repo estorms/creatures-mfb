@@ -1,11 +1,15 @@
 h1 {
     text-align: center;
 }
-/*
+
 img {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
 
-height: 200px;
-width: 200px;
-margin: 0 auto;
-
-}*/
+button {
+    margin: 10px auto;
+    display: block;
+}

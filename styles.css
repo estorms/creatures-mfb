@@ -8,7 +8,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-image: url('http://blog.hostbaby.com/backgrounds/bg_wreaths.jpg');
+  background-image: url('pink.jpg');
   background-repeat: no-repeat;
  /* background-position: /;*/
 
@@ -16,14 +16,18 @@ body {
 
 h1, h2 {
     text-align: center;
-    text-shadow: 3px 2px lightgrey;
-}
+    text-shadow: 2px 3px 2px black;
+    color: white;
+    font-weight: bold;
+
+  }
 
 img {
     height: 500px;
     width: 500px;
     display: block;
     margin: 0 auto;
+    box-shadow: 8px 8px 15px black;
 }
 
 img:not(.active) {
@@ -37,4 +41,5 @@ button {
 
 .prev, .next {
     font-size: 5em;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.8);
 }

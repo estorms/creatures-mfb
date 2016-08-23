@@ -1,4 +1,20 @@
-h1 {
+
+
+body {
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: url('http://blog.hostbaby.com/backgrounds/bg_wreaths.jpg');
+  background-repeat: no-repeat;
+ /* background-position: /;*/
+
+}
+
+h1, h2 {
     text-align: center;
 }
 
@@ -9,7 +25,15 @@ img {
     margin: 0 auto;
 }
 
+img:not(.active) {
+    display: none;
+}
+
 button {
     margin: 10px auto;
     display: block;
+}
+
+.prev, .next {
+    font-size: 6em;
 }
